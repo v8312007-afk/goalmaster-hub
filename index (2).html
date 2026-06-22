@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GoalMaster Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>⚽ GoalMaster Hub</h1>
+    <p>Стань лучше каждый день</p>
+</header>
+
+<main>
+<section>
+<button class="toggle" onclick="toggleBox('training')">💪 Тренировки</button>
+<div class="content" id="training">
+<div class="card"><h3>⚡ Готовые тренировки</h3><p>120 грн</p><button onclick="buy('Готовые тренировки')">Купить</button></div>
+<div class="card"><h3>🎯 Индивидуальная тренировка</h3><p>200 грн</p><button onclick="buy('Индивидуальная тренировка')">Купить</button></div>
+<div class="card"><h3>🧤 Вратарская тренировка</h3><p>150 грн</p><button onclick="buy('Вратарская тренировка')">Купить</button></div>
+<div class="card"><h3>📦 Все тренировки</h3><p>399 грн</p><button onclick="buy('Все тренировки')">Купить</button></div>
+</div>
+</section>
+
+<section>
+<button class="toggle" onclick="toggleBox('food')">🥗 Питание</button>
+<div class="content" id="food">
+<div class="card"><h3>🍎 Готовый план</h3><p>70 грн</p><button onclick="buy('Готовый план питания')">Купить</button></div>
+<div class="card"><h3>📋 Индивидуальное питание</h3><p>120 грн</p><button onclick="buy('Индивидуальное питание')">Купить</button></div>
+</div>
+</section>
+
+<section>
+<button class="toggle" onclick="toggleBox('rating')">📊 Оценка игры</button>
+<div class="content" id="rating">
+<div class="card"><h3>⚡ Скорость</h3><p>60 грн</p><button onclick="buy('Оценка скорости')">Купить</button></div>
+<div class="card"><h3>🎯 Удары</h3><p>60 грн</p><button onclick="buy('Оценка ударов')">Купить</button></div>
+<div class="card"><h3>🏃 Дриблинг</h3><p>60 грн</p><button onclick="buy('Оценка дриблинга')">Купить</button></div>
+<div class="card"><h3>📦 Полный анализ</h3><p>249 грн</p><button onclick="buy('Полный анализ')">Купить</button></div>
+</div>
+</section>
+
+<section>
+<button class="toggle" onclick="toggleBox('packs')">👑 Пакеты</button>
+<div class="content" id="packs">
+<div class="card"><h3>🥉 Start Pack</h3><p>Тренировки + питание.</p><p>499 грн</p><button onclick="buy('Start Pack')">Купить</button></div>
+<div class="card"><h3>🥈 Pro Pack</h3><p>Индивидуальный подход и анализ.</p><p>799 грн</p><button onclick="buy('Pro Pack')">Купить</button></div>
+<div class="card"><h3>🥇 Elite Footballer</h3><p>Полный пакет для развития футболиста.</p><p>1199 грн</p><button onclick="buy('Elite Footballer')">Купить</button></div>
+</div>
+</section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
